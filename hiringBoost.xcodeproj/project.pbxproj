@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D8E0E6115BB554C00403CAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E6015BB554C00403CAE /* UIKit.framework */; };
+		4D8E0E6315BB554C00403CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E6215BB554C00403CAE /* Foundation.framework */; };
+		4D8E0E6515BB554C00403CAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E6415BB554C00403CAE /* CoreGraphics.framework */; };
+		4D8E0E6B15BB554C00403CAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E0E6915BB554C00403CAE /* InfoPlist.strings */; };
+		4D8E0E6D15BB554C00403CAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E0E6C15BB554C00403CAE /* main.m */; };
+		4D8E0E7115BB554C00403CAE /* aRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E0E7015BB554C00403CAE /* aRAppDelegate.m */; };
+		4D8E0E7415BB554C00403CAE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E0E7215BB554C00403CAE /* MainStoryboard.storyboard */; };
+		4D8E0E7715BB554C00403CAE /* aRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E0E7615BB554C00403CAE /* aRViewController.m */; };
+		4D8E0E7F15BB561E00403CAE /* libBump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E7E15BB561E00403CAE /* libBump.a */; };
+		4D8E0E8115BB567E00403CAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E8015BB567E00403CAE /* CoreLocation.framework */; };
+		4D8E0E8315BB569400403CAE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E8215BB569400403CAE /* AudioToolbox.framework */; };
+		4D8E0E8515BB56D600403CAE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8E0E8415BB56D600403CAE /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D8E0E5C15BB554C00403CAE /* hiringBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiringBoost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8E0E6015BB554C00403CAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D8E0E6215BB554C00403CAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D8E0E6415BB554C00403CAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D8E0E6815BB554C00403CAE /* hiringBoost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hiringBoost-Info.plist"; sourceTree = "<group>"; };
+		4D8E0E6A15BB554C00403CAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D8E0E6C15BB554C00403CAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D8E0E6E15BB554C00403CAE /* hiringBoost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hiringBoost-Prefix.pch"; sourceTree = "<group>"; };
+		4D8E0E6F15BB554C00403CAE /* aRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aRAppDelegate.h; sourceTree = "<group>"; };
+		4D8E0E7015BB554C00403CAE /* aRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aRAppDelegate.m; sourceTree = "<group>"; };
+		4D8E0E7315BB554C00403CAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4D8E0E7515BB554C00403CAE /* aRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aRViewController.h; sourceTree = "<group>"; };
+		4D8E0E7615BB554C00403CAE /* aRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aRViewController.m; sourceTree = "<group>"; };
+		4D8E0E7D15BB561E00403CAE /* BumpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpClient.h; sourceTree = "<group>"; };
+		4D8E0E7E15BB561E00403CAE /* libBump.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBump.a; sourceTree = "<group>"; };
+		4D8E0E8015BB567E00403CAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4D8E0E8215BB569400403CAE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4D8E0E8415BB56D600403CAE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D8E0E5915BB554C00403CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E0E6115BB554C00403CAE /* UIKit.framework in Frameworks */,
+				4D8E0E6315BB554C00403CAE /* Foundation.framework in Frameworks */,
+				4D8E0E6515BB554C00403CAE /* CoreGraphics.framework in Frameworks */,
+				4D8E0E7F15BB561E00403CAE /* libBump.a in Frameworks */,
+				4D8E0E8115BB567E00403CAE /* CoreLocation.framework in Frameworks */,
+				4D8E0E8315BB569400403CAE /* AudioToolbox.framework in Frameworks */,
+				4D8E0E8515BB56D600403CAE /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D8E0E5115BB554C00403CAE = {
+			isa = PBXGroup;
+			children = (
+				4D8E0E6615BB554C00403CAE /* hiringBoost */,
+				4D8E0E5F15BB554C00403CAE /* Frameworks */,
+				4D8E0E5D15BB554C00403CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8E0E5D15BB554C00403CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E0E5C15BB554C00403CAE /* hiringBoost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8E0E5F15BB554C00403CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E0E8415BB56D600403CAE /* CFNetwork.framework */,
+				4D8E0E8215BB569400403CAE /* AudioToolbox.framework */,
+				4D8E0E8015BB567E00403CAE /* CoreLocation.framework */,
+				4D8E0E6015BB554C00403CAE /* UIKit.framework */,
+				4D8E0E6215BB554C00403CAE /* Foundation.framework */,
+				4D8E0E6415BB554C00403CAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D8E0E6615BB554C00403CAE /* hiringBoost */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E0E6F15BB554C00403CAE /* aRAppDelegate.h */,
+				4D8E0E7015BB554C00403CAE /* aRAppDelegate.m */,
+				4D8E0E7215BB554C00403CAE /* MainStoryboard.storyboard */,
+				4D8E0E7515BB554C00403CAE /* aRViewController.h */,
+				4D8E0E7615BB554C00403CAE /* aRViewController.m */,
+				4D8E0E7D15BB561E00403CAE /* BumpClient.h */,
+				4D8E0E7E15BB561E00403CAE /* libBump.a */,
+				4D8E0E6715BB554C00403CAE /* Supporting Files */,
+			);
+			path = hiringBoost;
+			sourceTree = "<group>";
+		};
+		4D8E0E6715BB554C00403CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E0E6815BB554C00403CAE /* hiringBoost-Info.plist */,
+				4D8E0E6915BB554C00403CAE /* InfoPlist.strings */,
+				4D8E0E6C15BB554C00403CAE /* main.m */,
+				4D8E0E6E15BB554C00403CAE /* hiringBoost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8E0E5B15BB554C00403CAE /* hiringBoost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8E0E7A15BB554C00403CAE /* Build configuration list for PBXNativeTarget "hiringBoost" */;
+			buildPhases = (
+				4D8E0E5815BB554C00403CAE /* Sources */,
+				4D8E0E5915BB554C00403CAE /* Frameworks */,
+				4D8E0E5A15BB554C00403CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hiringBoost;
+			productName = hiringBoost;
+			productReference = 4D8E0E5C15BB554C00403CAE /* hiringBoost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D8E0E5315BB554C00403CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = aR;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "IT Apps LLC";
+			};
+			buildConfigurationList = 4D8E0E5615BB554C00403CAE /* Build configuration list for PBXProject "hiringBoost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D8E0E5115BB554C00403CAE;
+			productRefGroup = 4D8E0E5D15BB554C00403CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8E0E5B15BB554C00403CAE /* hiringBoost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8E0E5A15BB554C00403CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E0E6B15BB554C00403CAE /* InfoPlist.strings in Resources */,
+				4D8E0E7415BB554C00403CAE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8E0E5815BB554C00403CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E0E6D15BB554C00403CAE /* main.m in Sources */,
+				4D8E0E7115BB554C00403CAE /* aRAppDelegate.m in Sources */,
+				4D8E0E7715BB554C00403CAE /* aRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D8E0E6915BB554C00403CAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8E0E6A15BB554C00403CAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D8E0E7215BB554C00403CAE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8E0E7315BB554C00403CAE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D8E0E7815BB554C00403CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D8E0E7915BB554C00403CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D8E0E7B15BB554C00403CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hiringBoost/hiringBoost-Prefix.pch";
+				INFOPLIST_FILE = "hiringBoost/hiringBoost-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/hiringBoost\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D8E0E7C15BB554C00403CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hiringBoost/hiringBoost-Prefix.pch";
+				INFOPLIST_FILE = "hiringBoost/hiringBoost-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/hiringBoost\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D8E0E5615BB554C00403CAE /* Build configuration list for PBXProject "hiringBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8E0E7815BB554C00403CAE /* Debug */,
+				4D8E0E7915BB554C00403CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8E0E7A15BB554C00403CAE /* Build configuration list for PBXNativeTarget "hiringBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8E0E7B15BB554C00403CAE /* Debug */,
+				4D8E0E7C15BB554C00403CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D8E0E5315BB554C00403CAE /* Project object */;
+}
